@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+font-family: "Montserrat", sans-serif;
+}
+
+.container1{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100em;
+width: 100%;
+padding-top: 20px;
+}
+.txt_retraite{
+text-align: center;
+margin: 3rem;
+}
+.formulaire{
+    padding: 15px;
+
+}

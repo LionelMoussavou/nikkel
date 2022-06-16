@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.global{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/vecteezy_young-asian-businessman-working-in-a-modern-office_1226598.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 50em;
+}
+
+.choix_item{
+        display: flex;
+        width: 70%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 5em;
+       
+}    
+.choix {
+margin: 3em;
+padding: 3em; 
+width: 20rem;
+height: 15rem;
+background-color:rgb(233, 122, 18);
+border-radius: 10%;
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 25);
+color: rgb(0, 0, 0);
+font-size: 15px;
+}
+
+.icon{
+width: 50px;
+height: 50px;
+}
+
+.assu h1{
+font-size: 20px;
+}

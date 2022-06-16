@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container1{
+    background-color: rgb(255, 255, 255);
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.domaine{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 30em;
+    height: 100%;
+    border: 2px;
+    
+} 
+.domaine, h3{
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.frame1{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("img/artisan(1).jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    width: 70%;
+    height: 100%;
+}
+
+.frame2{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("img/fleuriste.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    width: 70%;
+    height: 100%;
+}
+
+.frame3{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("img/medecin.jpg");
+    background-position: 50% 25%;
+    background-size: cover;
+    border-radius: 6px;
+    width: 70%;
+    height: 100%;
+}
+
+.assu_item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5em;
+}   
+.assu {
+   margin: 3em;
+   padding: 3em;
+   width: 20rem;
+   height: 15rem;
+   background-color: rgb(91, 155, 213);; 
+   border-radius: 10%;
+   box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 25);
+   color: rgb(0, 0, 0);
+   font-size: 15px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.assu h1{
+    font-size: 20px;
+}
+

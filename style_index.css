@@ -1,0 +1,45 @@
+/*GLOBAL CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 15em;
+   
+}
+
+.hero{
+    min-height: 90vh;
+    background-image: url("img/vecteezy_young-asian-businessman-working-in-a-modern-office_1226598.jpg") ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.titre{
+    padding: 3rem; 
+    font-size: 27px;
+    margin-bottom: 5em;
+   
+}
+
+.choix button{
+    margin: 3rem;
+    padding: 3rem;
+    background-color: rgb(91, 155, 213);
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 25);
+    transition: 0.2s all;
+    
+    
+}
